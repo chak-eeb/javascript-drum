@@ -1,0 +1,46 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(drums.jpg);
+	background-size: 100%;
+}
+
+.keys{
+	width: 1000px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 25%;
+}
+
+.key{
+	
+	border: 2px solid white;
+	width: 60px;
+	height: 60px;
+	margin: 0 5px;
+	background-color: rgba(0,0,0,.38);
+	transition: all .8s;
+}
+
+.playing{
+	border: 4px solid yellow;
+	transform: scale(1.2);
+}
+
+kbd{
+	 display: block;  
+	font-size: 2rem;
+	color: white;
+}
+
+span{
+	color: yellow;
+}
