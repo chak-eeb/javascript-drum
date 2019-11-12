@@ -28,3 +28,8 @@ setInterval(function, 1000)
   for the minutes and hours hands not to jump by a whole minute and a whole hour we add 
   secondsRatio to the getMinutes and minutesRatio to the getHours.
 
+  Learn about setRotation and setProperty.
+  create a property "rotation" to apply on our elements.
+  create setRotation function to run it on each hand.
+  at the end we run the function "setClock" that we passed to setInterval().
+
